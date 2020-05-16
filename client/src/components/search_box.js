@@ -13,22 +13,20 @@ export default class SearchBox extends Component {
     }
 
     render() {
-
-
-
-    return(
-    <div className='card text-center'>
-        <br/>
-        <h1>Search for your next great read</h1>
-        <form action="/search">
-        <div className='form-group'>
-        <input className='form-control' type="text" ref={(c) => this.book = c} name="book"/>
-        </div>
-        <div className='form-group'>
-        <button className='btn btn-outline-primary btn-lg' type='submit' onClick={this.onSubmit}>Search</button>
-        </div>
-        </form>
-    </div>
-    )
-}}
+        return(
+            <div className='card text-center'>
+                <br/>
+                <h1>Search for your next great read</h1>
+                <form action="/search">
+                <div className='form-group'>
+                <input className='form-control' type="text" ref={(c) => this.book = c} name="book"/>
+                </div>
+                <div className='form-group'>
+                <button className='btn btn-outline-primary btn-lg' type='submit' onClick={this.onSubmit}>Search</button>
+                </div>
+                </form>
+            </div>
+        )
+    }
+}
 
