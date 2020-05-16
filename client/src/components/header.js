@@ -6,10 +6,10 @@ return (
         <h1 className="navbar-brand">Bookworm</h1>
         <ul className='navbar-nav'>
             <li className='nav-item'>
-                <a class='nav-link' href='/'>Search</a>
+                <a className='nav-link' href='/'>Search</a>
             </li>
             <li className='nav-item'>
-                <a class='nav-link' href='/saved'>Saved</a>
+                <a className='nav-link' href='/saved'>Saved</a>
             </li>
         </ul>   
     </nav> 
